@@ -1,23 +1,36 @@
+import type SystemError from "./lib/SystemError";
 import { readFile } from "node:fs/promises";
-import SystemError from "./lib/SystemError";
+import regex from "./lib/regex";
 
 init();
 
 async function init() {
-  await logToString();
+  const unfilteredLog = await logToString();
+  const games = unfilteredLog.matchAll(regex.games);
+
+  if (!games) throw new Error("No games found");
+
+  for (const game of games) {
+    console.log(typeof game.groups?.game ?? "Game was not found");
+  }
 }
 
 async function logToString() {
   try {
-    const logFile = await readFile("./src/log/quake.log", {
+    const logFile = await readFile("./src/log/test.log", {
       encoding: "utf8",
     });
     return logFile;
   } catch (error: unknown) {
-    if (error instanceof SystemError) {
-      return console.error(error.message);
+    const isSystemError =
+      Object.hasOwn(error as Object, "code") &&
+      Object.hasOwn(error as Object, "message");
+
+    if (isSystemError) {
+      throw new Error((error as SystemError).message);
     }
 
-    return console.error(error);
+    console.error(error);
+    throw new Error("An unknown error has occurred");
   }
 }
