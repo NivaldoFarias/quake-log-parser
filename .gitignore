@@ -1,0 +1,33 @@
+# Logs
+npm-debug.log*
+
+# Dependency directories
+**node_modules/
+
+# TypeScript cache and output files
+*.tsbuildinfo
+dist
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.local
+
+# Temp and cache directory
+.temp
+.cache
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode
+.vscode-test
+
+# Wakatime
+.wakatime**
+
+# Local template files
+**.template.**
