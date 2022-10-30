@@ -1,11 +1,12 @@
+import { logToString, createJSON } from "./helpers";
 import * as util from "./lib/utils";
 import regex from "./lib/regex";
 
-init();
+createLogReport();
 
-async function init() {
+async function createLogReport() {
   const output: Record<string, unknown>[] = [];
-  const unfilteredLog = await util.logToString("./log/quake.log");
+  const unfilteredLog = await logToString("./log/quake.log");
 
   // create array of logs per each game
   const iterableGameRegex = unfilteredLog.matchAll(regex.games);
@@ -20,7 +21,9 @@ async function init() {
     output.push(buildGameReport(game.trim(), output.length));
   }
 
-  return console.log(output);
+  await createJSON(output, "./json/report.json");
+
+  return console.log("Log file parsed successfully");
 }
 
 function buildGameReport(log: string, index: number): Record<string, unknown> {
