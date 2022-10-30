@@ -2,14 +2,11 @@
     {
         "id": 0,
         "total_kills": 0,
-        "players": [
-            "Isgalamido"
-        ],
-        "kills": {
-            "Isgalamido": 0
-        },
-        "deaths": {
-            "Isgalamido": 0
+        "players": {
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {},
         "kills_by_means": {},
@@ -18,20 +15,19 @@
     {
         "id": 1,
         "total_kills": 11,
-        "players": [
-            "Isgalamido",
-            "Dono da Bola",
-            "Mocinha"
-        ],
-        "kills": {
-            "Isgalamido": 0,
-            "Dono da Bola": 0,
-            "Mocinha": 0
-        },
-        "deaths": {
-            "Isgalamido": 10,
-            "Dono da Bola": 0,
-            "Mocinha": 1
+        "players": {
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 10
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mocinha": {
+                "kills": 0,
+                "deaths": 1
+            }
         },
         "items": {
             "weapon_rocketlauncher": 20,
@@ -55,23 +51,23 @@
     {
         "id": 2,
         "total_kills": 3,
-        "players": [
-            "Dono da Bola",
-            "Mocinha",
-            "Isgalamido",
-            "Zeh"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Mocinha": 0,
-            "Isgalamido": 1,
-            "Zeh": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Mocinha": 1,
-            "Isgalamido": 0,
-            "Zeh": 2
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mocinha": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Isgalamido": {
+                "kills": 1,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 2
+            }
         },
         "items": {
             "weapon_rocketlauncher": 6,
@@ -92,23 +88,23 @@
     {
         "id": 3,
         "total_kills": 29,
-        "players": [
-            "Dono da Bola",
-            "Isgalamido",
-            "Zeh",
-            "Assasinu Credi"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Isgalamido": 6,
-            "Zeh": 5,
-            "Assasinu Credi": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Isgalamido": 15,
-            "Zeh": 14,
-            "Assasinu Credi": 0
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Zeh": {
+                "kills": 1,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "ammo_rockets": 24,
@@ -140,23 +136,23 @@
     {
         "id": 4,
         "total_kills": 2,
-        "players": [
-            "Dono da Bola",
-            "Isgalamido",
-            "Zeh",
-            "Assasinu Credi"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Isgalamido": 1,
-            "Zeh": 0,
-            "Assasinu Credi": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Isgalamido": 0,
-            "Zeh": 2,
-            "Assasinu Credi": 0
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 1,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 2
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "ammo_rockets": 8,
@@ -180,38 +176,43 @@
     {
         "id": 5,
         "total_kills": 19,
-        "players": [
-            "Fasano Again",
-            "Oootsimo",
-            "Isgalamido",
-            "Zeh",
-            "Dono da Bola",
-            "UnnamedPlayer",
-            "Maluquinho",
-            "Assasinu Credi",
-            "Mal"
-        ],
-        "kills": {
-            "Fasano Again": 0,
-            "Oootsimo": 4,
-            "Isgalamido": 2,
-            "Zeh": 5,
-            "Dono da Bola": 0,
-            "UnnamedPlayer": 0,
-            "Maluquinho": 0,
-            "Assasinu Credi": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Fasano Again": 0,
-            "Oootsimo": 2,
-            "Isgalamido": 6,
-            "Zeh": 7,
-            "Dono da Bola": 0,
-            "UnnamedPlayer": 1,
-            "Maluquinho": 1,
-            "Assasinu Credi": 0,
-            "Mal": 2
+        "players": {
+            "Fasano Again": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 3,
+                "deaths": 1
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 4,
+                "deaths": 3
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "UnnamedPlayer": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Maluquinho": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 2
+            }
         },
         "items": {
             "weapon_rocketlauncher": 49,
@@ -241,32 +242,35 @@
     {
         "id": 6,
         "total_kills": 40,
-        "players": [
-            "Oootsimo",
-            "Dono da Bola",
-            "Zeh",
-            "Chessus",
-            "Mal",
-            "Assasinu Credi",
-            "Isgalamido"
-        ],
-        "kills": {
-            "Oootsimo": 0,
-            "Dono da Bola": 0,
-            "Zeh": 5,
-            "Chessus": 4,
-            "Mal": 1,
-            "Assasinu Credi": 0,
-            "Isgalamido": 2
-        },
-        "deaths": {
-            "Oootsimo": 7,
-            "Dono da Bola": 0,
-            "Zeh": 4,
-            "Chessus": 5,
-            "Mal": 12,
-            "Assasinu Credi": 0,
-            "Isgalamido": 12
+        "players": {
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 2,
+                "deaths": 1
+            },
+            "Chessus": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 2
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 1
+            }
         },
         "items": {
             "weapon_rocketlauncher": 23,
@@ -294,35 +298,39 @@
     {
         "id": 7,
         "total_kills": 10,
-        "players": [
-            "Dono da Bola",
-            "Isgalamido",
-            "Zeh",
-            "Oootsimo",
-            "Chessus",
-            "Assasinu Credi",
-            "UnnamedPlayer",
-            "Mal"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Isgalamido": 5,
-            "Zeh": 0,
-            "Oootsimo": 1,
-            "Chessus": 0,
-            "Assasinu Credi": 0,
-            "UnnamedPlayer": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Isgalamido": 4,
-            "Zeh": 2,
-            "Oootsimo": 0,
-            "Chessus": 3,
-            "Assasinu Credi": 0,
-            "UnnamedPlayer": 0,
-            "Mal": 1
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 5,
+                "deaths": 4
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 2
+            },
+            "Oootsimo": {
+                "kills": 1,
+                "deaths": 0
+            },
+            "Chessus": {
+                "kills": 0,
+                "deaths": 3
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "UnnamedPlayer": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 1
+            }
         },
         "items": {
             "weapon_railgun": 24,
@@ -348,32 +356,35 @@
     {
         "id": 8,
         "total_kills": 78,
-        "players": [
-            "Isgalamido",
-            "Dono da Bola",
-            "Zeh",
-            "Oootsimo",
-            "Chessus",
-            "Assasinu Credi",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 22,
-            "Dono da Bola": 0,
-            "Zeh": 0,
-            "Oootsimo": 0,
-            "Chessus": 3,
-            "Assasinu Credi": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Isgalamido": 21,
-            "Dono da Bola": 0,
-            "Zeh": 7,
-            "Oootsimo": 18,
-            "Chessus": 9,
-            "Assasinu Credi": 0,
-            "Mal": 23
+        "players": {
+            "Isgalamido": {
+                "kills": 22,
+                "deaths": 21
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 7
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 2
+            },
+            "Chessus": {
+                "kills": 2,
+                "deaths": 2
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 5
+            }
         },
         "items": {
             "ammo_rockets": 21,
@@ -402,32 +413,35 @@
     {
         "id": 9,
         "total_kills": 2,
-        "players": [
-            "Isgalamido",
-            "Dono da Bola",
-            "Zeh",
-            "Oootsimo",
-            "Chessus",
-            "Assasinu Credi",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 0,
-            "Dono da Bola": 0,
-            "Zeh": 0,
-            "Oootsimo": 0,
-            "Chessus": 0,
-            "Assasinu Credi": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Isgalamido": 1,
-            "Dono da Bola": 0,
-            "Zeh": 0,
-            "Oootsimo": 1,
-            "Chessus": 0,
-            "Assasinu Credi": 0,
-            "Mal": 0
+        "players": {
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Chessus": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "ammo_rockets": 2,
@@ -448,32 +462,35 @@
     {
         "id": 10,
         "total_kills": 62,
-        "players": [
-            "Isgalamido",
-            "Dono da Bola",
-            "Zeh",
-            "Oootsimo",
-            "Chessus",
-            "Assasinu Credi",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 22,
-            "Dono da Bola": 0,
-            "Zeh": 1,
-            "Oootsimo": 0,
-            "Chessus": 1,
-            "Assasinu Credi": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Isgalamido": 12,
-            "Dono da Bola": 0,
-            "Zeh": 16,
-            "Oootsimo": 8,
-            "Chessus": 12,
-            "Assasinu Credi": 0,
-            "Mal": 14
+        "players": {
+            "Isgalamido": {
+                "kills": 17,
+                "deaths": 7
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 1,
+                "deaths": 4
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Chessus": {
+                "kills": 1,
+                "deaths": 2
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 14
+            }
         },
         "items": {
             "weapon_railgun": 104,
@@ -502,29 +519,31 @@
     {
         "id": 11,
         "total_kills": 3,
-        "players": [
-            "Zeh",
-            "Assasinu Credi",
-            "Dono da Bola",
-            "Fasano Again",
-            "Isgalamido",
-            "Oootsimo"
-        ],
-        "kills": {
-            "Zeh": 0,
-            "Assasinu Credi": 0,
-            "Dono da Bola": 0,
-            "Fasano Again": 0,
-            "Isgalamido": 0,
-            "Oootsimo": 0
-        },
-        "deaths": {
-            "Zeh": 3,
-            "Assasinu Credi": 0,
-            "Dono da Bola": 0,
-            "Fasano Again": 0,
-            "Isgalamido": 0,
-            "Oootsimo": 0
+        "players": {
+            "Zeh": {
+                "kills": 0,
+                "deaths": 3
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Fasano Again": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "weapon_railgun": 3,
@@ -543,26 +562,27 @@
     {
         "id": 12,
         "total_kills": 0,
-        "players": [
-            "Dono da Bola",
-            "Oootsimo",
-            "Isgalamido",
-            "Assasinu Credi",
-            "Zeh"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Oootsimo": 0,
-            "Isgalamido": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Oootsimo": 0,
-            "Isgalamido": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 0
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "weapon_railgun": 2,
@@ -574,32 +594,35 @@
     {
         "id": 13,
         "total_kills": 7,
-        "players": [
-            "Dono da Bola",
-            "Oootsimo",
-            "Isgalamido",
-            "Assasinu Credi",
-            "Zeh",
-            "UnnamedPlayer",
-            "Mal"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Oootsimo": 0,
-            "Isgalamido": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 1,
-            "UnnamedPlayer": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Oootsimo": 3,
-            "Isgalamido": 1,
-            "Assasinu Credi": 0,
-            "Zeh": 2,
-            "UnnamedPlayer": 0,
-            "Mal": 1
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 3
+            },
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 1
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 1,
+                "deaths": 2
+            },
+            "UnnamedPlayer": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 1
+            }
         },
         "items": {
             "weapon_rocketlauncher": 25,
@@ -626,29 +649,31 @@
     {
         "id": 14,
         "total_kills": 3,
-        "players": [
-            "Dono da Bola",
-            "Oootsimo",
-            "Isgalamido",
-            "Assasinu Credi",
-            "Zeh",
-            "Mal"
-        ],
-        "kills": {
-            "Dono da Bola": 0,
-            "Oootsimo": 0,
-            "Isgalamido": 1,
-            "Assasinu Credi": 0,
-            "Zeh": 1,
-            "Mal": 0
-        },
-        "deaths": {
-            "Dono da Bola": 0,
-            "Oootsimo": 0,
-            "Isgalamido": 1,
-            "Assasinu Credi": 0,
-            "Zeh": 0,
-            "Mal": 2
+        "players": {
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Isgalamido": {
+                "kills": 1,
+                "deaths": 1
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 1,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 2
+            }
         },
         "items": {
             "ammo_bullets": 2,
@@ -669,29 +694,31 @@
     {
         "id": 15,
         "total_kills": 44,
-        "players": [
-            "Isgalamido",
-            "Oootsimo",
-            "Dono da Bola",
-            "Assasinu Credi",
-            "Zeh",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 10,
-            "Oootsimo": 8,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 10,
-            "Mal": 0
-        },
-        "deaths": {
-            "Isgalamido": 9,
-            "Oootsimo": 7,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 12,
-            "Mal": 16
+        "players": {
+            "Isgalamido": {
+                "kills": 10,
+                "deaths": 8
+            },
+            "Oootsimo": {
+                "kills": 3,
+                "deaths": 1
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 1,
+                "deaths": 1
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 3
+            }
         },
         "items": {
             "weapon_rocketlauncher": 125,
@@ -721,29 +748,31 @@
     {
         "id": 16,
         "total_kills": 0,
-        "players": [
-            "Isgalamido",
-            "Oootsimo",
-            "Dono da Bola",
-            "Assasinu Credi",
-            "Zeh",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 0,
-            "Oootsimo": 0,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 0,
-            "Mal": 0
-        },
-        "deaths": {
-            "Isgalamido": 0,
-            "Oootsimo": 0,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 0,
-            "Mal": 0
+        "players": {
+            "Isgalamido": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Oootsimo": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 0
+            }
         },
         "items": {
             "ammo_rockets": 2,
@@ -761,29 +790,31 @@
     {
         "id": 17,
         "total_kills": 54,
-        "players": [
-            "Isgalamido",
-            "Oootsimo",
-            "Dono da Bola",
-            "Assasinu Credi",
-            "Zeh",
-            "Mal"
-        ],
-        "kills": {
-            "Isgalamido": 8,
-            "Oootsimo": 8,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 12,
-            "Mal": 5
-        },
-        "deaths": {
-            "Isgalamido": 13,
-            "Oootsimo": 10,
-            "Dono da Bola": 0,
-            "Assasinu Credi": 0,
-            "Zeh": 13,
-            "Mal": 18
+        "players": {
+            "Isgalamido": {
+                "kills": 2,
+                "deaths": 6
+            },
+            "Oootsimo": {
+                "kills": 7,
+                "deaths": 4
+            },
+            "Dono da Bola": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Assasinu Credi": {
+                "kills": 0,
+                "deaths": 0
+            },
+            "Zeh": {
+                "kills": 3,
+                "deaths": 0
+            },
+            "Mal": {
+                "kills": 0,
+                "deaths": 1
+            }
         },
         "items": {
             "ammo_rockets": 19,

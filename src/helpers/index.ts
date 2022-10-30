@@ -13,11 +13,11 @@ export async function logToString(path: string) {
       Object.hasOwn(error as Object, "message");
 
     if (isSystemError) {
-      throw new Error((error as SystemError).message);
+      throw new Error("[ERROR] " + (error as SystemError).message);
     }
 
     console.error(error);
-    throw new Error("An unknown error has occurred");
+    throw new Error("[ERROR] An unknown error has occurred");
   }
 }
 
@@ -37,12 +37,12 @@ export async function createJSON(
       Object.hasOwn(error as Object, "message");
 
     if (isSystemError) {
-      throw new Error((error as SystemError).message);
+      throw new Error("[ERROR] " + (error as SystemError).message);
     }
 
     console.error(error);
-    throw new Error("An unknown error has occurred");
+    throw new Error("[ERROR] An unknown error has occurred");
   }
 
-  return console.log("JSON file created");
+  return console.log("[INFO] JSON file created at '" + path + "'");
 }

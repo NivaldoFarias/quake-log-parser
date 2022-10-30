@@ -23,7 +23,9 @@ async function createLogReport() {
 
   await createJSON(output, "./json/report.json");
 
-  return console.log("Log file parsed successfully");
+  return console.log(
+    `[INFO] Parsed ${output.length} games from Log file successfully`,
+  );
 }
 
 function buildGameReport(log: string, index: number): Record<string, unknown> {
@@ -37,9 +39,8 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
   function buildGameInfo() {
     const output = {
       total_kills: 0,
-      players: new Set<string>(),
-      kills: new Map<string, number>(),
-      deaths: new Map<string, number>(),
+      players: new Map<string, Record<"kills" | "deaths", number>>(),
+
       items: new Map<string, number>(),
       kills_by_means: new Map<string, number>(),
       elapsed_time: "",
@@ -52,9 +53,7 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
 
     return {
       ...output,
-      players: [...output.players],
-      kills: { ...Object.fromEntries(output.kills) },
-      deaths: { ...Object.fromEntries(output.deaths) },
+      players: { ...Object.fromEntries(output.players) },
       items: { ...Object.fromEntries(output.items) },
       kills_by_means: { ...Object.fromEntries(output.kills_by_means) },
     };
@@ -68,9 +67,10 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
         }
 
         const player = playerRegex.groups?.player ?? "";
-        output.players.add(player);
-        output.kills.set(player, 0);
-        output.deaths.set(player, 0);
+        output.players.set(player, {
+          kills: 0,
+          deaths: 0,
+        });
       }
     }
 
@@ -86,19 +86,36 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
         const player = killRegex.groups?.player ?? "";
         const meansOfDeath = killRegex.groups?.means_of_death ?? "";
 
-        output.deaths.set(player, (output.deaths.get(player) || 0) + 1);
+        output.players.set(player, {
+          kills: output.players.get(player)?.kills ?? 0,
+          deaths: (output.players.get(player)?.deaths ?? 0) + 1,
+        });
+
         if (killedBy === "<world>" || killedBy === player) {
-          // @ts-expect-error
-          if (output.kills.has(player) && output.kills.get(player) > 0) {
+          if (
             // @ts-expect-error
-            output.kills.set(player, output.kills.get(player) - 1);
+            output.players.get(player)?.kills > 0
+          ) {
+            const onlySubtractIfAboveZero =
+              (output.players.get(killedBy)?.kills ?? 0) - 1 === -1
+                ? 0
+                : (output.players.get(killedBy)?.kills ?? 0) - 1;
+
+            output.players.set(player, {
+              kills: onlySubtractIfAboveZero,
+              deaths: output.players.get(killedBy)?.deaths ?? 0,
+            });
           }
-        } else
-          output.kills.set(killedBy, (output.kills.get(killedBy) || 0) + 1);
+        } else {
+          output.players.set(killedBy, {
+            kills: (output.players.get(killedBy)?.kills ?? 0) + 1,
+            deaths: output.players.get(killedBy)?.deaths ?? 0,
+          });
+        }
 
         output.kills_by_means.set(
           meansOfDeath,
-          (output.kills_by_means.get(meansOfDeath) || 0) + 1,
+          (output.kills_by_means.get(meansOfDeath) ?? 0) + 1,
         );
 
         output.total_kills++;
@@ -115,7 +132,7 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
 
         const item = itemRegex.groups?.item ?? "";
 
-        output.items.set(item, (output.items.get(item) || 0) + 1);
+        output.items.set(item, (output.items.get(item) ?? 0) + 1);
       }
     }
 
