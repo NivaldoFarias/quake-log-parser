@@ -1,11 +1,11 @@
-import { logToString, minutesToString, timeToMinutes } from "./lib/utils";
+import * as util from "./lib/utils";
 import regex from "./lib/regex";
 
 init();
 
 async function init() {
   const output: Record<string, unknown>[] = [];
-  const unfilteredLog = await logToString();
+  const unfilteredLog = await util.logToString("./log/quake.log");
 
   // create array of logs per each game
   const iterableGameRegex = unfilteredLog.matchAll(regex.games);
@@ -20,7 +20,7 @@ async function init() {
     output.push(buildGameReport(game.trim(), output.length));
   }
 
-  console.log(output);
+  return console.log(output);
 }
 
 function buildGameReport(log: string, index: number): Record<string, unknown> {
@@ -129,11 +129,11 @@ function buildGameReport(log: string, index: number): Record<string, unknown> {
           end: string;
         };
 
-        const elapsedTime = minutesToString(
-          timeToMinutes(end) - timeToMinutes(start),
+        const elapsedTime = util.minutesToString(
+          util.timeToMinutes(end) - util.timeToMinutes(start),
         );
 
-        output.elapsed_time = elapsedTime;
+        output.elapsed_time = util.normalizeTimeString(elapsedTime);
       }
     }
   }
