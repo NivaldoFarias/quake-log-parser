@@ -1,9 +1,7 @@
 <!-- Project Summary -->
 
-<br />
-
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/server">
+  <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/src">
     <img src="assets/img/quake-logo.png" alt="Logo" width="100">
   </a>
 
@@ -11,9 +9,9 @@
   <div align="center">
     TypeScript Log Parser for Quake 3 Arena Log Files
     <br />
-    <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/server"><strong>Browse code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/src"><strong>Browse code»</strong></a>
     -
-    <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/client"><strong>Run parser locally»</strong></a>
+    <a href="https://github.com/NivaldoFarias/quake-log-parser#installation-and-usage"><strong>Run parser locally»</strong></a>
   </div>
 </div>
 
@@ -182,3 +180,5 @@ That's it! You can run the scripts locally to create a new report file by runnin
 ```bash
 npm run report
 ```
+
+The output `JSON` file will be created in the `./json` folder. With relative path `./json/report.json`.
