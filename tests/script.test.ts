@@ -5,7 +5,7 @@ import { buildGameReport, createLogReport } from "./../src/scripts";
 import { logToString, createJSON } from "./../src/helpers";
 import * as util from "../src/lib/utils";
 
-import mock from "./../mocks";
+import mock from "./mocks";
 
 describe("Log Report", () => {
   test("should create a report", async () => {
