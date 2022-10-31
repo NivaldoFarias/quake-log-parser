@@ -1,5 +1,7 @@
 <!-- Project Summary -->
 
+<br />
+
 <div align="center">
   <a href="https://github.com/NivaldoFarias/quake-log-parser/tree/main/src">
     <img src="assets/img/quake-logo.png" alt="Logo" width="100">
