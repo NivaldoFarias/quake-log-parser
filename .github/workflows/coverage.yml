@@ -1,4 +1,4 @@
-name: "Jest Coverage Report"
+name: "Jest Coverage"
 on: [push, pull_request]
 jobs:
   coverage:
