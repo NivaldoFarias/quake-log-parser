@@ -1,0 +1,17 @@
+name: "Jest Coverage Report"
+on: [push, pull_request]
+jobs:
+  coverage:
+    environment: coverage
+    permissions:
+      checks: write
+      pull-requests: write
+      contents: write
+    runs-on: ubuntu-latest
+    env:
+      LOG_PATH: ./tests/log/test.log
+      INVALID_LOG: ./tests/log/invalid.log
+      OUTPUT_PATH: ./tests/json/report.test.json
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ArtiomTr/jest-coverage-report-action@v2.1.2

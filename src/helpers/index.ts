@@ -10,16 +10,7 @@ export async function logToString(path: string) {
     });
     return logFile;
   } catch (error: unknown) {
-    const isSystemError =
-      Object.hasOwn(error as Object, "code") &&
-      Object.hasOwn(error as Object, "message");
-
-    if (isSystemError) {
-      throw new Error("[ERROR] " + (error as SystemError).message);
-    }
-
-    console.error(error);
-    throw new Error("[ERROR] An unknown error has occurred");
+    throw new Error("[ERROR] " + (error as SystemError).message);
   }
 }
 
@@ -31,16 +22,7 @@ export async function createJSON(data: Report, path: string) {
       encoding: "utf8",
     });
   } catch (error: unknown) {
-    const isSystemError =
-      Object.hasOwn(error as Object, "code") &&
-      Object.hasOwn(error as Object, "message");
-
-    if (isSystemError) {
-      throw new Error("[ERROR] " + (error as SystemError).message);
-    }
-
-    console.error(error);
-    throw new Error("[ERROR] An unknown error has occurred");
+    throw new Error("[ERROR] " + (error as SystemError).message);
   }
 
   return console.log("[INFO] JSON file created at '" + path + "'");
