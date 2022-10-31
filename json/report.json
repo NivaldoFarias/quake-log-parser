@@ -1,846 +1,848 @@
-[
-    {
-        "id": 0,
-        "total_kills": 0,
-        "players": {
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 0
-            }
+{
+    "games": [
+        {
+            "id": 0,
+            "total_kills": 0,
+            "players": {
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 0
+                }
+            },
+            "items": {},
+            "kills_by_means": {},
+            "elapsed_time": "5:37"
         },
-        "items": {},
-        "kills_by_means": {},
-        "elapsed_time": "5:37"
-    },
-    {
-        "id": 1,
-        "total_kills": 11,
-        "players": {
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 10
+        {
+            "id": 1,
+            "total_kills": 11,
+            "players": {
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 10
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mocinha": {
+                    "kills": 0,
+                    "deaths": 1
+                }
             },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+            "items": {
+                "weapon_rocketlauncher": 20,
+                "ammo_rockets": 11,
+                "item_armor_body": 6,
+                "ammo_shells": 2,
+                "item_health_large": 5,
+                "item_quad": 1,
+                "item_armor_shard": 11,
+                "item_armor_combat": 3,
+                "weapon_shotgun": 1,
+                "item_health_mega": 1
             },
-            "Mocinha": {
-                "kills": 0,
-                "deaths": 1
-            }
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 7,
+                "MOD_ROCKET_SPLASH": 3,
+                "MOD_FALLING": 1
+            },
+            "elapsed_time": "5:31"
         },
-        "items": {
-            "weapon_rocketlauncher": 20,
-            "ammo_rockets": 11,
-            "item_armor_body": 6,
-            "ammo_shells": 2,
-            "item_health_large": 5,
-            "item_quad": 1,
-            "item_armor_shard": 11,
-            "item_armor_combat": 3,
-            "weapon_shotgun": 1,
-            "item_health_mega": 1
+        {
+            "id": 2,
+            "total_kills": 3,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mocinha": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Isgalamido": {
+                    "kills": 1,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 2
+                }
+            },
+            "items": {
+                "weapon_rocketlauncher": 6,
+                "item_armor_shard": 18,
+                "item_armor_combat": 2,
+                "item_health_large": 3,
+                "ammo_rockets": 3,
+                "weapon_shotgun": 1,
+                "ammo_shells": 1,
+                "weapon_railgun": 6
+            },
+            "kills_by_means": {
+                "MOD_ROCKET": 1,
+                "MOD_TRIGGER_HURT": 2
+            },
+            "elapsed_time": "1:22"
         },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 7,
-            "MOD_ROCKET_SPLASH": 3,
-            "MOD_FALLING": 1
+        {
+            "id": 3,
+            "total_kills": 29,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Zeh": {
+                    "kills": 1,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                }
+            },
+            "items": {
+                "ammo_rockets": 24,
+                "weapon_rocketlauncher": 159,
+                "item_armor_shard": 95,
+                "item_armor_combat": 16,
+                "item_armor_body": 15,
+                "weapon_railgun": 15,
+                "item_health_large": 13,
+                "item_quad": 17,
+                "ammo_shells": 5,
+                "weapon_shotgun": 20,
+                "ammo_bullets": 6,
+                "ammo_slugs": 1,
+                "item_health": 2,
+                "item_health_mega": 1
+            },
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 5,
+                "MOD_FALLING": 5,
+                "MOD_RAILGUN": 4,
+                "MOD_ROCKET": 1,
+                "MOD_ROCKET_SPLASH": 11,
+                "MOD_MACHINEGUN": 2,
+                "MOD_SHOTGUN": 1
+            },
+            "elapsed_time": "10:26"
         },
-        "elapsed_time": "5:31"
-    },
-    {
-        "id": 2,
-        "total_kills": 3,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+        {
+            "id": 4,
+            "total_kills": 2,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 1,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 2
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                }
             },
-            "Mocinha": {
-                "kills": 0,
-                "deaths": 1
+            "items": {
+                "ammo_rockets": 8,
+                "weapon_rocketlauncher": 26,
+                "item_armor_body": 6,
+                "item_armor_shard": 33,
+                "item_health_large": 3,
+                "item_armor_combat": 5,
+                "item_health_mega": 3,
+                "weapon_railgun": 14,
+                "ammo_slugs": 1,
+                "ammo_shells": 1,
+                "weapon_shotgun": 2
             },
-            "Isgalamido": {
-                "kills": 1,
-                "deaths": 0
+            "kills_by_means": {
+                "MOD_ROCKET": 1,
+                "MOD_TRIGGER_HURT": 1
             },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 2
-            }
+            "elapsed_time": "42:07"
         },
-        "items": {
-            "weapon_rocketlauncher": 6,
-            "item_armor_shard": 18,
-            "item_armor_combat": 2,
-            "item_health_large": 3,
-            "ammo_rockets": 3,
-            "weapon_shotgun": 1,
-            "ammo_shells": 1,
-            "weapon_railgun": 6
+        {
+            "id": 5,
+            "total_kills": 19,
+            "players": {
+                "Fasano Again": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 3,
+                    "deaths": 1
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 4,
+                    "deaths": 3
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "UnnamedPlayer": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Maluquinho": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 2
+                }
+            },
+            "items": {
+                "weapon_rocketlauncher": 49,
+                "ammo_rockets": 9,
+                "item_armor_body": 5,
+                "item_armor_shard": 36,
+                "item_armor_combat": 6,
+                "ammo_shells": 4,
+                "weapon_shotgun": 6,
+                "item_health_large": 6,
+                "weapon_railgun": 6,
+                "item_quad": 6,
+                "ammo_slugs": 2,
+                "ammo_bullets": 2
+            },
+            "kills_by_means": {
+                "MOD_ROCKET": 3,
+                "MOD_RAILGUN": 2,
+                "MOD_SHOTGUN": 3,
+                "MOD_ROCKET_SPLASH": 6,
+                "MOD_TRIGGER_HURT": 3,
+                "MOD_FALLING": 1,
+                "MOD_MACHINEGUN": 1
+            },
+            "elapsed_time": "3:25"
         },
-        "kills_by_means": {
-            "MOD_ROCKET": 1,
-            "MOD_TRIGGER_HURT": 2
+        {
+            "id": 6,
+            "total_kills": 40,
+            "players": {
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 2,
+                    "deaths": 1
+                },
+                "Chessus": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 2
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 1
+                }
+            },
+            "items": {
+                "weapon_rocketlauncher": 23,
+                "weapon_railgun": 17,
+                "ammo_rockets": 5,
+                "ammo_bullets": 5,
+                "weapon_bfg": 10,
+                "item_health": 4,
+                "item_health_large": 5,
+                "item_armor_body": 2,
+                "item_quad": 2
+            },
+            "kills_by_means": {
+                "MOD_TELEFRAG": 17,
+                "MOD_TRIGGER_HURT": 13,
+                "MOD_RAILGUN": 3,
+                "MOD_ROCKET": 2,
+                "MOD_BFG_SPLASH": 2,
+                "MOD_MACHINEGUN": 1,
+                "MOD_CRUSH": 1,
+                "MOD_BFG": 1
+            },
+            "elapsed_time": "3:47"
         },
-        "elapsed_time": "1:22"
-    },
-    {
-        "id": 3,
-        "total_kills": 29,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+        {
+            "id": 7,
+            "total_kills": 10,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 5,
+                    "deaths": 4
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 2
+                },
+                "Oootsimo": {
+                    "kills": 1,
+                    "deaths": 0
+                },
+                "Chessus": {
+                    "kills": 0,
+                    "deaths": 3
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "UnnamedPlayer": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 1
+                }
             },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 1
+            "items": {
+                "weapon_railgun": 24,
+                "weapon_rocketlauncher": 31,
+                "item_armor_body": 3,
+                "weapon_bfg": 7,
+                "ammo_rockets": 5,
+                "ammo_bullets": 5,
+                "team_CTF_redflag": 8,
+                "item_health": 1,
+                "item_health_large": 5,
+                "team_CTF_blueflag": 9
             },
-            "Zeh": {
-                "kills": 1,
-                "deaths": 0
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 2,
+                "MOD_BFG_SPLASH": 3,
+                "MOD_MACHINEGUN": 1,
+                "MOD_RAILGUN": 3,
+                "MOD_ROCKET_SPLASH": 1
             },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            }
+            "elapsed_time": "2:33"
         },
-        "items": {
-            "ammo_rockets": 24,
-            "weapon_rocketlauncher": 159,
-            "item_armor_shard": 95,
-            "item_armor_combat": 16,
-            "item_armor_body": 15,
-            "weapon_railgun": 15,
-            "item_health_large": 13,
-            "item_quad": 17,
-            "ammo_shells": 5,
-            "weapon_shotgun": 20,
-            "ammo_bullets": 6,
-            "ammo_slugs": 1,
-            "item_health": 2,
-            "item_health_mega": 1
+        {
+            "id": 8,
+            "total_kills": 78,
+            "players": {
+                "Isgalamido": {
+                    "kills": 22,
+                    "deaths": 21
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 7
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 2
+                },
+                "Chessus": {
+                    "kills": 2,
+                    "deaths": 2
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 5
+                }
+            },
+            "items": {
+                "ammo_rockets": 21,
+                "ammo_bullets": 21,
+                "weapon_railgun": 150,
+                "weapon_rocketlauncher": 172,
+                "team_CTF_redflag": 52,
+                "item_health_large": 32,
+                "team_CTF_blueflag": 42,
+                "weapon_bfg": 19,
+                "item_armor_body": 7,
+                "item_health": 4
+            },
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 27,
+                "MOD_BFG_SPLASH": 6,
+                "MOD_RAILGUN": 12,
+                "MOD_ROCKET_SPLASH": 11,
+                "MOD_ROCKET": 10,
+                "MOD_MACHINEGUN": 4,
+                "MOD_BFG": 7,
+                "MOD_FALLING": 1
+            },
+            "elapsed_time": "7:55"
         },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 5,
-            "MOD_FALLING": 5,
-            "MOD_RAILGUN": 4,
-            "MOD_ROCKET": 1,
-            "MOD_ROCKET_SPLASH": 11,
-            "MOD_MACHINEGUN": 2,
-            "MOD_SHOTGUN": 1
+        {
+            "id": 9,
+            "total_kills": 2,
+            "players": {
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Chessus": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 0
+                }
+            },
+            "items": {
+                "ammo_rockets": 2,
+                "ammo_bullets": 2,
+                "weapon_railgun": 7,
+                "weapon_rocketlauncher": 6,
+                "item_health_large": 3,
+                "team_CTF_redflag": 1,
+                "team_CTF_blueflag": 1,
+                "weapon_bfg": 2
+            },
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 1,
+                "MOD_ROCKET_SPLASH": 1
+            },
+            "elapsed_time": "0:35"
         },
-        "elapsed_time": "10:26"
-    },
-    {
-        "id": 4,
-        "total_kills": 2,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+        {
+            "id": 10,
+            "total_kills": 62,
+            "players": {
+                "Isgalamido": {
+                    "kills": 17,
+                    "deaths": 7
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 1,
+                    "deaths": 4
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Chessus": {
+                    "kills": 1,
+                    "deaths": 2
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 14
+                }
             },
-            "Isgalamido": {
-                "kills": 1,
-                "deaths": 0
+            "items": {
+                "weapon_railgun": 104,
+                "ammo_rockets": 16,
+                "ammo_bullets": 16,
+                "weapon_rocketlauncher": 132,
+                "team_CTF_blueflag": 48,
+                "item_health_large": 21,
+                "item_armor_body": 8,
+                "team_CTF_redflag": 37,
+                "item_health": 2,
+                "weapon_bfg": 11
             },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 2
+            "kills_by_means": {
+                "MOD_RAILGUN": 7,
+                "MOD_TRIGGER_HURT": 21,
+                "MOD_ROCKET": 8,
+                "MOD_BFG_SPLASH": 10,
+                "MOD_ROCKET_SPLASH": 7,
+                "MOD_FALLING": 3,
+                "MOD_MACHINEGUN": 2,
+                "MOD_BFG": 4
             },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            }
+            "elapsed_time": "5:49"
         },
-        "items": {
-            "ammo_rockets": 8,
-            "weapon_rocketlauncher": 26,
-            "item_armor_body": 6,
-            "item_armor_shard": 33,
-            "item_health_large": 3,
-            "item_armor_combat": 5,
-            "item_health_mega": 3,
-            "weapon_railgun": 14,
-            "ammo_slugs": 1,
-            "ammo_shells": 1,
-            "weapon_shotgun": 2
+        {
+            "id": 11,
+            "total_kills": 3,
+            "players": {
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 3
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Fasano Again": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 0
+                }
+            },
+            "items": {
+                "weapon_railgun": 3,
+                "item_armor_body": 1,
+                "team_CTF_redflag": 2,
+                "ammo_rockets": 2,
+                "ammo_bullets": 2,
+                "weapon_rocketlauncher": 3,
+                "team_CTF_blueflag": 1
+            },
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 3
+            },
+            "elapsed_time": "64:34"
         },
-        "kills_by_means": {
-            "MOD_ROCKET": 1,
-            "MOD_TRIGGER_HURT": 1
+        {
+            "id": 12,
+            "total_kills": 0,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 0
+                }
+            },
+            "items": {
+                "weapon_railgun": 2,
+                "weapon_rocketlauncher": 1
+            },
+            "kills_by_means": {},
+            "elapsed_time": "0:48"
         },
-        "elapsed_time": "42:07"
-    },
-    {
-        "id": 5,
-        "total_kills": 19,
-        "players": {
-            "Fasano Again": {
-                "kills": 0,
-                "deaths": 0
+        {
+            "id": 13,
+            "total_kills": 7,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 3
+                },
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 1
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 1,
+                    "deaths": 2
+                },
+                "UnnamedPlayer": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 1
+                }
             },
-            "Oootsimo": {
-                "kills": 3,
-                "deaths": 1
+            "items": {
+                "weapon_rocketlauncher": 25,
+                "ammo_rockets": 5,
+                "item_armor_shard": 21,
+                "item_armor_combat": 3,
+                "weapon_railgun": 6,
+                "item_health_large": 4,
+                "ammo_shells": 1,
+                "weapon_shotgun": 2,
+                "item_health": 2,
+                "item_armor_body": 3,
+                "item_quad": 3,
+                "ammo_slugs": 2
             },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 0
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 3,
+                "MOD_FALLING": 1,
+                "MOD_RAILGUN": 1,
+                "MOD_ROCKET_SPLASH": 2
             },
-            "Zeh": {
-                "kills": 4,
-                "deaths": 3
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "UnnamedPlayer": {
-                "kills": 0,
-                "deaths": 1
-            },
-            "Maluquinho": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 2
-            }
+            "elapsed_time": "1:53"
         },
-        "items": {
-            "weapon_rocketlauncher": 49,
-            "ammo_rockets": 9,
-            "item_armor_body": 5,
-            "item_armor_shard": 36,
-            "item_armor_combat": 6,
-            "ammo_shells": 4,
-            "weapon_shotgun": 6,
-            "item_health_large": 6,
-            "weapon_railgun": 6,
-            "item_quad": 6,
-            "ammo_slugs": 2,
-            "ammo_bullets": 2
+        {
+            "id": 14,
+            "total_kills": 3,
+            "players": {
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Isgalamido": {
+                    "kills": 1,
+                    "deaths": 1
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 1,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 2
+                }
+            },
+            "items": {
+                "ammo_bullets": 2,
+                "weapon_rocketlauncher": 11,
+                "ammo_rockets": 2,
+                "item_armor_body": 1,
+                "item_health_large": 1,
+                "item_armor_shard": 3,
+                "item_armor_combat": 1
+            },
+            "kills_by_means": {
+                "MOD_ROCKET_SPLASH": 1,
+                "MOD_ROCKET": 1,
+                "MOD_TRIGGER_HURT": 1
+            },
+            "elapsed_time": "0:35"
         },
-        "kills_by_means": {
-            "MOD_ROCKET": 3,
-            "MOD_RAILGUN": 2,
-            "MOD_SHOTGUN": 3,
-            "MOD_ROCKET_SPLASH": 6,
-            "MOD_TRIGGER_HURT": 3,
-            "MOD_FALLING": 1,
-            "MOD_MACHINEGUN": 1
+        {
+            "id": 15,
+            "total_kills": 44,
+            "players": {
+                "Isgalamido": {
+                    "kills": 10,
+                    "deaths": 8
+                },
+                "Oootsimo": {
+                    "kills": 3,
+                    "deaths": 1
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 1,
+                    "deaths": 1
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 3
+                }
+            },
+            "items": {
+                "weapon_rocketlauncher": 125,
+                "ammo_rockets": 15,
+                "weapon_shotgun": 20,
+                "ammo_shells": 8,
+                "item_armor_shard": 52,
+                "item_armor_combat": 9,
+                "item_health_large": 14,
+                "item_armor_body": 9,
+                "weapon_railgun": 18,
+                "item_quad": 15,
+                "ammo_slugs": 2,
+                "item_health": 1,
+                "ammo_bullets": 4
+            },
+            "kills_by_means": {
+                "MOD_TRIGGER_HURT": 9,
+                "MOD_ROCKET_SPLASH": 12,
+                "MOD_SHOTGUN": 3,
+                "MOD_RAILGUN": 7,
+                "MOD_ROCKET": 10,
+                "MOD_MACHINEGUN": 3
+            },
+            "elapsed_time": "5:35"
         },
-        "elapsed_time": "3:25"
-    },
-    {
-        "id": 6,
-        "total_kills": 40,
-        "players": {
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 1
+        {
+            "id": 16,
+            "total_kills": 0,
+            "players": {
+                "Isgalamido": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Oootsimo": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 0
+                }
             },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+            "items": {
+                "ammo_rockets": 2,
+                "weapon_rocketlauncher": 7,
+                "item_armor_body": 1,
+                "weapon_railgun": 5,
+                "item_health_large": 1,
+                "weapon_shotgun": 1,
+                "item_armor_shard": 3,
+                "item_armor_combat": 1
             },
-            "Zeh": {
-                "kills": 2,
-                "deaths": 1
-            },
-            "Chessus": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 2
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 1
-            }
+            "kills_by_means": {},
+            "elapsed_time": "0:24"
         },
-        "items": {
-            "weapon_rocketlauncher": 23,
-            "weapon_railgun": 17,
-            "ammo_rockets": 5,
-            "ammo_bullets": 5,
-            "weapon_bfg": 10,
-            "item_health": 4,
-            "item_health_large": 5,
-            "item_armor_body": 2,
-            "item_quad": 2
-        },
-        "kills_by_means": {
-            "MOD_TELEFRAG": 17,
-            "MOD_TRIGGER_HURT": 13,
-            "MOD_RAILGUN": 3,
-            "MOD_ROCKET": 2,
-            "MOD_BFG_SPLASH": 2,
-            "MOD_MACHINEGUN": 1,
-            "MOD_CRUSH": 1,
-            "MOD_BFG": 1
-        },
-        "elapsed_time": "3:47"
-    },
-    {
-        "id": 7,
-        "total_kills": 10,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
+        {
+            "id": 17,
+            "total_kills": 54,
+            "players": {
+                "Isgalamido": {
+                    "kills": 2,
+                    "deaths": 6
+                },
+                "Oootsimo": {
+                    "kills": 7,
+                    "deaths": 4
+                },
+                "Dono da Bola": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Assasinu Credi": {
+                    "kills": 0,
+                    "deaths": 0
+                },
+                "Zeh": {
+                    "kills": 3,
+                    "deaths": 0
+                },
+                "Mal": {
+                    "kills": 0,
+                    "deaths": 1
+                }
             },
-            "Isgalamido": {
-                "kills": 5,
-                "deaths": 4
+            "items": {
+                "ammo_rockets": 19,
+                "weapon_rocketlauncher": 185,
+                "item_armor_body": 13,
+                "item_health_large": 15,
+                "weapon_railgun": 17,
+                "item_armor_shard": 72,
+                "item_armor_combat": 13,
+                "weapon_shotgun": 24,
+                "ammo_shells": 13,
+                "item_quad": 13,
+                "ammo_slugs": 1,
+                "item_health": 1,
+                "item_health_mega": 1,
+                "ammo_bullets": 2
             },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 2
+            "kills_by_means": {
+                "MOD_ROCKET": 11,
+                "MOD_TRIGGER_HURT": 10,
+                "MOD_RAILGUN": 4,
+                "MOD_ROCKET_SPLASH": 22,
+                "MOD_MACHINEGUN": 2,
+                "MOD_SHOTGUN": 3,
+                "MOD_FALLING": 2
             },
-            "Oootsimo": {
-                "kills": 1,
-                "deaths": 0
-            },
-            "Chessus": {
-                "kills": 0,
-                "deaths": 3
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "UnnamedPlayer": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 1
-            }
-        },
-        "items": {
-            "weapon_railgun": 24,
-            "weapon_rocketlauncher": 31,
-            "item_armor_body": 3,
-            "weapon_bfg": 7,
-            "ammo_rockets": 5,
-            "ammo_bullets": 5,
-            "team_CTF_redflag": 8,
-            "item_health": 1,
-            "item_health_large": 5,
-            "team_CTF_blueflag": 9
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 2,
-            "MOD_BFG_SPLASH": 3,
-            "MOD_MACHINEGUN": 1,
-            "MOD_RAILGUN": 3,
-            "MOD_ROCKET_SPLASH": 1
-        },
-        "elapsed_time": "2:33"
-    },
-    {
-        "id": 8,
-        "total_kills": 78,
-        "players": {
-            "Isgalamido": {
-                "kills": 22,
-                "deaths": 21
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 7
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 2
-            },
-            "Chessus": {
-                "kills": 2,
-                "deaths": 2
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 5
-            }
-        },
-        "items": {
-            "ammo_rockets": 21,
-            "ammo_bullets": 21,
-            "weapon_railgun": 150,
-            "weapon_rocketlauncher": 172,
-            "team_CTF_redflag": 52,
-            "item_health_large": 32,
-            "team_CTF_blueflag": 42,
-            "weapon_bfg": 19,
-            "item_armor_body": 7,
-            "item_health": 4
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 27,
-            "MOD_BFG_SPLASH": 6,
-            "MOD_RAILGUN": 12,
-            "MOD_ROCKET_SPLASH": 11,
-            "MOD_ROCKET": 10,
-            "MOD_MACHINEGUN": 4,
-            "MOD_BFG": 7,
-            "MOD_FALLING": 1
-        },
-        "elapsed_time": "7:55"
-    },
-    {
-        "id": 9,
-        "total_kills": 2,
-        "players": {
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 1
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 1
-            },
-            "Chessus": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 0
-            }
-        },
-        "items": {
-            "ammo_rockets": 2,
-            "ammo_bullets": 2,
-            "weapon_railgun": 7,
-            "weapon_rocketlauncher": 6,
-            "item_health_large": 3,
-            "team_CTF_redflag": 1,
-            "team_CTF_blueflag": 1,
-            "weapon_bfg": 2
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 1,
-            "MOD_ROCKET_SPLASH": 1
-        },
-        "elapsed_time": "0:35"
-    },
-    {
-        "id": 10,
-        "total_kills": 62,
-        "players": {
-            "Isgalamido": {
-                "kills": 17,
-                "deaths": 7
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 1,
-                "deaths": 4
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 1
-            },
-            "Chessus": {
-                "kills": 1,
-                "deaths": 2
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 14
-            }
-        },
-        "items": {
-            "weapon_railgun": 104,
-            "ammo_rockets": 16,
-            "ammo_bullets": 16,
-            "weapon_rocketlauncher": 132,
-            "team_CTF_blueflag": 48,
-            "item_health_large": 21,
-            "item_armor_body": 8,
-            "team_CTF_redflag": 37,
-            "item_health": 2,
-            "weapon_bfg": 11
-        },
-        "kills_by_means": {
-            "MOD_RAILGUN": 7,
-            "MOD_TRIGGER_HURT": 21,
-            "MOD_ROCKET": 8,
-            "MOD_BFG_SPLASH": 10,
-            "MOD_ROCKET_SPLASH": 7,
-            "MOD_FALLING": 3,
-            "MOD_MACHINEGUN": 2,
-            "MOD_BFG": 4
-        },
-        "elapsed_time": "5:49"
-    },
-    {
-        "id": 11,
-        "total_kills": 3,
-        "players": {
-            "Zeh": {
-                "kills": 0,
-                "deaths": 3
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Fasano Again": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 0
-            }
-        },
-        "items": {
-            "weapon_railgun": 3,
-            "item_armor_body": 1,
-            "team_CTF_redflag": 2,
-            "ammo_rockets": 2,
-            "ammo_bullets": 2,
-            "weapon_rocketlauncher": 3,
-            "team_CTF_blueflag": 1
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 3
-        },
-        "elapsed_time": "64:34"
-    },
-    {
-        "id": 12,
-        "total_kills": 0,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 0
-            }
-        },
-        "items": {
-            "weapon_railgun": 2,
-            "weapon_rocketlauncher": 1
-        },
-        "kills_by_means": {},
-        "elapsed_time": "0:48"
-    },
-    {
-        "id": 13,
-        "total_kills": 7,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 3
-            },
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 1
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 1,
-                "deaths": 2
-            },
-            "UnnamedPlayer": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 1
-            }
-        },
-        "items": {
-            "weapon_rocketlauncher": 25,
-            "ammo_rockets": 5,
-            "item_armor_shard": 21,
-            "item_armor_combat": 3,
-            "weapon_railgun": 6,
-            "item_health_large": 4,
-            "ammo_shells": 1,
-            "weapon_shotgun": 2,
-            "item_health": 2,
-            "item_armor_body": 3,
-            "item_quad": 3,
-            "ammo_slugs": 2
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 3,
-            "MOD_FALLING": 1,
-            "MOD_RAILGUN": 1,
-            "MOD_ROCKET_SPLASH": 2
-        },
-        "elapsed_time": "1:53"
-    },
-    {
-        "id": 14,
-        "total_kills": 3,
-        "players": {
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Isgalamido": {
-                "kills": 1,
-                "deaths": 1
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 1,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 2
-            }
-        },
-        "items": {
-            "ammo_bullets": 2,
-            "weapon_rocketlauncher": 11,
-            "ammo_rockets": 2,
-            "item_armor_body": 1,
-            "item_health_large": 1,
-            "item_armor_shard": 3,
-            "item_armor_combat": 1
-        },
-        "kills_by_means": {
-            "MOD_ROCKET_SPLASH": 1,
-            "MOD_ROCKET": 1,
-            "MOD_TRIGGER_HURT": 1
-        },
-        "elapsed_time": "0:35"
-    },
-    {
-        "id": 15,
-        "total_kills": 44,
-        "players": {
-            "Isgalamido": {
-                "kills": 10,
-                "deaths": 8
-            },
-            "Oootsimo": {
-                "kills": 3,
-                "deaths": 1
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 1,
-                "deaths": 1
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 3
-            }
-        },
-        "items": {
-            "weapon_rocketlauncher": 125,
-            "ammo_rockets": 15,
-            "weapon_shotgun": 20,
-            "ammo_shells": 8,
-            "item_armor_shard": 52,
-            "item_armor_combat": 9,
-            "item_health_large": 14,
-            "item_armor_body": 9,
-            "weapon_railgun": 18,
-            "item_quad": 15,
-            "ammo_slugs": 2,
-            "item_health": 1,
-            "ammo_bullets": 4
-        },
-        "kills_by_means": {
-            "MOD_TRIGGER_HURT": 9,
-            "MOD_ROCKET_SPLASH": 12,
-            "MOD_SHOTGUN": 3,
-            "MOD_RAILGUN": 7,
-            "MOD_ROCKET": 10,
-            "MOD_MACHINEGUN": 3
-        },
-        "elapsed_time": "5:35"
-    },
-    {
-        "id": 16,
-        "total_kills": 0,
-        "players": {
-            "Isgalamido": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Oootsimo": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 0
-            }
-        },
-        "items": {
-            "ammo_rockets": 2,
-            "weapon_rocketlauncher": 7,
-            "item_armor_body": 1,
-            "weapon_railgun": 5,
-            "item_health_large": 1,
-            "weapon_shotgun": 1,
-            "item_armor_shard": 3,
-            "item_armor_combat": 1
-        },
-        "kills_by_means": {},
-        "elapsed_time": "0:24"
-    },
-    {
-        "id": 17,
-        "total_kills": 54,
-        "players": {
-            "Isgalamido": {
-                "kills": 2,
-                "deaths": 6
-            },
-            "Oootsimo": {
-                "kills": 7,
-                "deaths": 4
-            },
-            "Dono da Bola": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Assasinu Credi": {
-                "kills": 0,
-                "deaths": 0
-            },
-            "Zeh": {
-                "kills": 3,
-                "deaths": 0
-            },
-            "Mal": {
-                "kills": 0,
-                "deaths": 1
-            }
-        },
-        "items": {
-            "ammo_rockets": 19,
-            "weapon_rocketlauncher": 185,
-            "item_armor_body": 13,
-            "item_health_large": 15,
-            "weapon_railgun": 17,
-            "item_armor_shard": 72,
-            "item_armor_combat": 13,
-            "weapon_shotgun": 24,
-            "ammo_shells": 13,
-            "item_quad": 13,
-            "ammo_slugs": 1,
-            "item_health": 1,
-            "item_health_mega": 1,
-            "ammo_bullets": 2
-        },
-        "kills_by_means": {
-            "MOD_ROCKET": 11,
-            "MOD_TRIGGER_HURT": 10,
-            "MOD_RAILGUN": 4,
-            "MOD_ROCKET_SPLASH": 22,
-            "MOD_MACHINEGUN": 2,
-            "MOD_SHOTGUN": 3,
-            "MOD_FALLING": 2
-        },
-        "elapsed_time": "7:37"
-    }
-]
+            "elapsed_time": "7:37"
+        }
+    ]
+}

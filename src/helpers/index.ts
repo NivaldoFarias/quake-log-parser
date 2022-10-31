@@ -1,4 +1,6 @@
 import type SystemError from "./../lib/SystemError";
+import type { Report } from "./../lib/types";
+
 import { readFile, writeFile } from "node:fs/promises";
 
 export async function logToString(path: string) {
@@ -21,10 +23,7 @@ export async function logToString(path: string) {
   }
 }
 
-export async function createJSON(
-  data: Record<string, unknown>[],
-  path: string,
-) {
+export async function createJSON(data: Report, path: string) {
   const json = JSON.stringify(data, null, 4);
 
   try {
