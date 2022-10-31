@@ -1,0 +1,53 @@
+{
+    "games": [
+        {
+            "id": 0,
+            "total_kills": 0,
+            "players": {
+                "Isgalamido": {
+                    "deaths": 0,
+                    "kills": 0
+                }
+            },
+            "kills_by_means": {},
+            "items": {},
+            "elapsed_time": "5:37"
+        },
+        {
+            "id": 1,
+            "elapsed_time": "5:31",
+            "items": {
+                "ammo_rockets": 11,
+                "ammo_shells": 2,
+                "item_armor_body": 6,
+                "item_armor_combat": 3,
+                "item_armor_shard": 11,
+                "item_health_large": 5,
+                "item_health_mega": 1,
+                "item_quad": 1,
+                "weapon_rocketlauncher": 20,
+                "weapon_shotgun": 1
+            },
+            "kills_by_means": {
+                "MOD_FALLING": 1,
+                "MOD_ROCKET_SPLASH": 3,
+                "MOD_TRIGGER_HURT": 7
+            },
+            "players": {
+                "Dono da Bola": {
+                    "deaths": 0,
+                    "kills": 0
+                },
+                "Isgalamido": {
+                    "deaths": 10,
+                    "kills": 0
+                },
+                "Mocinha": {
+                    "deaths": 1,
+                    "kills": 0
+                }
+            },
+            "total_kills": 11
+        }
+    ]
+}
