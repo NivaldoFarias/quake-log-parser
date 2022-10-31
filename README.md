@@ -28,6 +28,10 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/NivaldoFarias/quake-log-parser/actions/workflows/coverage.yml">
+    <img src="https://github.com/NivaldoFarias/quake-log-parser/actions/workflows/coverage.yml/badge.svg" alt="jest coverage report badge" />
+  </a>
+  &nbsp;
   <img src="https://img.shields.io/badge/license-MIT-%23A8D1FF?style=flat-square" />
 </div>
 
